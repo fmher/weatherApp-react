@@ -7,11 +7,12 @@ function Header () {
     return (
         <div>
 
-            <h1>Hello from Header</h1>
+            <h1>This will become the head</h1>
             <Place></Place>
             <Search></Search>
             <Settings></Settings>
 
+            <p>place, search, setting will be side by side</p>
         </div>
     );
 }

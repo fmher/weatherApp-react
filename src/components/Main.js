@@ -3,11 +3,11 @@
 
 function Main () {
     return (
-        <div>
+        <>
 
-            <h1>Hello from Main</h1>
+            <h1>main will display the data</h1>
 
-        </div>
+        </>
     );
 }
 
