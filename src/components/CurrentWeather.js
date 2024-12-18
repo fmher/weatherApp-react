@@ -4,7 +4,7 @@ function CurrentWeather() {
     const data = getCurrentWeather();
     // console.log(data)
     const { cloud_cover, feels_like, humidity, icon_num, precipitation, summary, temperature, uv_index, visibility, wind } = data;
-    return <div> currentWeather
+    return <div className="Main"> currentWeather
         <div>temp
             <div>icon
                 <img />

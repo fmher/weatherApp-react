@@ -1,15 +1,16 @@
-import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-
+import Header from "./components/Header";
+import Main from "./components/Main";
+import './styles/components/App.scss'
+import "bootstrap-icons/font/bootstrap-icons.css"
 
 function App() {
-  return (
-    <div className="App">
-      
-      <Header />
-      <Main></Main>
 
+  const dark = false;
+
+  return (
+    <div className={`App-${dark ? "dark": "light"}`}>
+      <Header />
+      <Main />
     </div>
   );
 }

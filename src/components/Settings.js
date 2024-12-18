@@ -1,14 +1,21 @@
-
+import "../styles/components/Settings.scss"
 
 function Settings () {
     return (
-        <div>
-
-            <h1>Hello form Settings</h1>
-            <h6>will adding setting icon and possible light and dark mode</h6>
-            <h6>will add a ternary function and icons for light and dark icons</h6>
-            <h6>will be clickable</h6>
-
+        <div className="Settings">
+            <div className="theme-toggler">
+                <div className="theme-buttons">
+                    <div className="light-theme-btn active">
+                        <i className="bi bi-sin"></i>
+                    </div>
+                    <div className="dark-theme-btn">
+                        <i className="bi bi-moon"></i>
+                    </div>
+                </div>
+            </div>
+            <div className="settings-btn">
+                <i className="bi bi-gear"></i>
+            </div>
         </div>
     );
 }
