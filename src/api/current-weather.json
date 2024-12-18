@@ -1,0 +1,32 @@
+{
+    "lat": "37.9577N",
+    "lon": "121.29078W",
+    "elevation": 13,
+    "timezone": "America/Los_Angeles",
+    "units": "us",
+    "current": {
+        "icon": "mostly_cloudy",
+        "icon_num": 5,
+        "summary": "Mostly cloudy",
+        "temperature": 52.4,
+        "feels_like": 50.2,
+        "wind_chill": 50.2,
+        "dew_point": 43.4,
+        "wind": {
+            "speed": 7.8,
+            "gusts": 14.7,
+            "angle": 325,
+            "dir": "NW"
+        },
+        "precipitation": {
+            "total": 0.0,
+            "type": "none"
+        },
+        "cloud_cover": 70,
+        "ozone": 284.66,
+        "pressure": 30.27,
+        "uv_index": 0.2,
+        "humidity": 71,
+        "visibility": 15.0
+    }
+}
